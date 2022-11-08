@@ -1,4 +1,4 @@
-from my_current_project.settings.common import *
+from data_tracker.settings.common import *
 import os
 
 
