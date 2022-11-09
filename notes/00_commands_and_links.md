@@ -48,8 +48,10 @@
 ## Production deployment links:
 * Dashboard:
 * Server Root:
+    * https://flynnt-knapp-data-tracker.herokuapp.com/
 * Create user:
 * Django Admin:
+    * https://flynnt-knapp-data-tracker.herokuapp.com/admin
 * Django Admin Documentation:
 
 ## Development server web links:

@@ -34,6 +34,8 @@ INSTALLED_APPS = [
     'django.contrib.admindocs',
 
     'accounts.apps.UsersConfig',
+
+    'activities.apps.ActivitiesConfig',
 ]
 
 MIDDLEWARE = [
