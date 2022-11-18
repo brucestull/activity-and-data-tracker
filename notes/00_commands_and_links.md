@@ -54,6 +54,10 @@
     * https://flynnt-knapp-data-tracker.herokuapp.com/admin
 * Django Admin Documentation:
 
+## Application Links:
+* http://localhost:8000/activities/
+* http://localhost:8000/activities/list/
+
 ## Development server web links:
 * Create user:
     * http://localhost:8000/accounts/signup/

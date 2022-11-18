@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from django.views.generic import ListView
 
-# Create your views here.
+from .models import Activity
+
+
+class ActivityListView(ListView):
+    model = Activity
+    template_name = 'activities/activity_list.html'

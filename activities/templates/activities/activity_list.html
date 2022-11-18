@@ -1,0 +1,23 @@
+<p><a href={% url 'home' %}>Activity and Data Tracker - Home</a></p>
+<p><a href="{% url 'activities:home' %}">Activities - Home</a></p>
+
+<h1>Big Ol List Page</h1>
+<h2>Activities</h2>
+<ul>
+    {% for activity in activity_list %}
+        <dl>
+            <dt>{{ activity.description }}</dt>
+            {% for instance in activity.activityinstance_set.all%}
+                <dd>{{ instance.duration }} -- {{ instance.created_on }}</dd>
+            {% endfor %}
+        </dl>
+    {% endfor %}
+</ul>
+
+{{ activity_list }}
+
+<dl>
+    <dt>Activity 01</dt>
+    <dd>Instance B</dd>
+    <dd>Instance B</dd>
+</dl>
